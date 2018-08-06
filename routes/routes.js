@@ -151,7 +151,7 @@ var appRouter = function (app) {
                 }
             });
         }else{
-            res.status(400).send({ message: "Nieobsługiwany Portal" });
+            res.status(400).send({ message: "Unsupported Page" });
         }
     });
 };
