@@ -14,8 +14,12 @@ var pusher = new Pusher({
 var appRouter = function (app) {
     app.put('/api/pusher', function(req, res) {
         var data = req.body;
-        pusher.trigger(data[0]['user_hash'], 'get', data);
-        res.status(200).send({ message: "OK" });
+        if (typeof data[0]['user_hash'] !== 'undefined') {
+            pusher.trigger(data[0]['user_hash'], 'get', data);
+            res.status(200).send({ message: "OK" });
+        }else{
+            res.status(404).send({ message: "ERROR" });
+        }
     });
     app.put('/api/getJsonProductList', function(req, res) {
         var link = req.body.link;
