@@ -154,36 +154,6 @@ var appRouter = function (app) {
             res.status(400).send({ message: "Nieobsługiwany Portal" });
         }
     });
-    app.get('/api/getCoordinate/:link', function(req, res) {
-        var link = decodeURIComponent(req.params.link);
-        if(!validUrl.isUri(link)) return res.status(400).send({ message: link });
-
-        var options = {
-            url: link,
-            headers: {
-              'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
-            }
-        };
-        var flats = [];
-        res.status(200);
-        res.header("Content-Type",'application/json');
-        request(options, function (error, response, html) {
-            console.log(response.statusCode + " : " + link);
-            if (!error && response.statusCode === 200) {
-                var $ = cheerio.load(html);
-                $('map area').each(function(i, element){
-                    flats.push(
-                        { 
-                            floor_id: $(this).parent().attr('name'),
-                            flat_id: 12-i,
-                            coords: $(this).attr('coords'),
-                        }
-                    );
-                });
-                res.json(flats);
-            }
-        });
-    });
 };
 function getFormattedDate() {
     var date = new Date();
