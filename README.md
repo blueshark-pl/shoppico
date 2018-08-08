@@ -4,7 +4,7 @@ Currently we are supported only polish website: allegro, olx, otomoto, sprzedaje
 
 All you need is a link to the list of ads example: https://allegro.pl/kategoria/ogrod-meble-ogrodowe-82256?order=n.
 
-# Instalation 
+# Installation 
 ## Linux
 TODO
 ## Windows
