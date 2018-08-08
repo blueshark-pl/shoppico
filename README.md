@@ -5,6 +5,12 @@ Currently we are supported only polish website: allegro, olx, otomoto, sprzedaje
 All you need is a link to the list of ads example: https://allegro.pl/kategoria/ogrod-meble-ogrodowe-82256?order=n.
 The result of the above call is JSON.
 
+# Instalation 
+## Linux
+TODO
+## Windows
+TODO
+
 # DEMO
 is under construction
 
@@ -12,6 +18,7 @@ is under construction
 1. complete the wiki
 2. refactorize the code
 3. add new portal (otodom, mobile.de)
+4. add cake app to this repo
 
 # Donations
 
