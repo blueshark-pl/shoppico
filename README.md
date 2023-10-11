@@ -4,7 +4,6 @@ web application for aggregating advertisements found on the Internet using any p
 ## Installation
 
 1. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
 
 You can now either use your machine's webserver to view the default home page, or start
 up the built-in webserver with:
