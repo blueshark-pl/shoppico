@@ -27,3 +27,5 @@ Other environment agnostic settings can be changed in `config/app.php`.
 ## Preview
 ![Login Page](docs/preview.png "Login Page")
 ![Login Page](docs/preview2.png "App Dashboard")
+![Login Page](docs/preview3.png "App Dashboard | Manage filters")
+![Login Page](docs/preview4.png "App Dashboard | Add a new filter")
