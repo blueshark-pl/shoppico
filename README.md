@@ -1,5 +1,8 @@
 # Shoppico pre-alpha
-web application for aggregating advertisements found on the Internet using any parser
+web application for aggregating advertisements found on the Internet using any parser.
+
+Are you looking for an apartment on advertising portals?
+If you are looking for a new or used car or other thing that can be found on advertising portals, this application is for you.
 
 ## Installation
 
