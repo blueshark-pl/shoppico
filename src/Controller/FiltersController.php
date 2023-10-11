@@ -22,7 +22,10 @@ class FiltersController extends AppController
     {
         $this->loadModel('FilterDetails');
         $findOpts = [
-            'conditions' => ['Filters.user_id' => $this->request->getAttribute('identity')->id]
+            'conditions' => [
+                'Filters.user_id' => $this->request->getAttribute('identity')->id,
+                'Filters.removed'           => 0
+            ]
         ];
         
         $filters = $this->Filters->find('list', $findOpts)->limit(50)->all();
@@ -31,6 +34,7 @@ class FiltersController extends AppController
             'order' => ['FilterDetails.created' => 'DESC'],
             'conditions' => [
                 'Filters.user_id' => $this->request->getAttribute('identity')->id,
+                'Filters.removed' => 0,
                 'FilterDetails.removed'           => 0
             ],
             'contain' => ['Filters'],
@@ -96,6 +100,8 @@ class FiltersController extends AppController
                     'FilterDetails.removed'           => 0,
                 ];
             }
+            $conditions['Filters.removed'] = 0;
+            
             $this->paginate = [
                 'limit' => '100',
                 'order' => ['FilterDetails.created' => 'DESC'],
@@ -269,5 +275,20 @@ class FiltersController extends AppController
             }
         }
     }
-
+    public function ajaxAddToTrash(){
+        $this->autoRender = false;
+        if($this->request->is('ajax')){
+            $filter_id   = $this->request->getData('filter_id');
+            $filter = $this->Filters->get($filter_id);
+            $data['removed'] = ($filter->removed == 1)? 0:1;
+            $filter = $this->Filters->patchEntity($filter, $data);
+            if ($this->Filters->save($filter)) {
+                echo "200";
+            }else{
+                echo "100";
+            }
+        } else {
+            echo "100";
+        }
+    }
 }

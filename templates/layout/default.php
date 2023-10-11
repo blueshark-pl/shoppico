@@ -12,8 +12,8 @@
         echo $this->Html->meta("_csrfToken", $this->request->getAttribute("csrfToken")); 
     ?>
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="/backend/assets/images/favicon.png">
-    <title>Shoppico - Automatyczna wyszukiwarka okazji, której pomaga AI</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+    <title><?= __('Shoppico - web application for aggregating advertisements found on the Internet using parser'); ?></title>
     <!-- Custom CSS -->
     <link href="/backend/assets/extra-libs/c3/c3.min.css" rel="stylesheet">
     <link href="/backend/assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
@@ -21,156 +21,15 @@
     <script src="/backend/assets/libs/jquery/dist/jquery.min.js"></script>
     <!-- Custom CSS -->
     <link href="/backend/dist/css/style.css" rel="stylesheet">
+    <link href="/backend/dist/css/style_mod.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
-
-<style>
-.page-wrapper > .container-fluid, .page-wrapper > .container-sm, .page-wrapper > .container-md, .page-wrapper > .container-lg, .page-wrapper > .container-xl, .page-wrapper > .container-xxl {
-    max-width: 100%;
-}
-.page-wrapper > .page-breadcrumb {
-    max-width: 100%;
-}
-.shoppico a.thumb {
-    display: block;
-    max-width: 80px;
-    height: 60px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    overflow: hidden;
-    border: 1px solid #ddd;
-    background: rgba(255,255,255,1);
-}
-.shoppico a.thumb img {
-    display: block;
-    height: 100%;
-    max-width: 100px;
-    margin: 0 auto;
-}
-.nav.nav-tabs .home-tab a {
-    border-top:1px solid #22ca80;
-    color:#22ca80;
-}
-.nav.nav-tabs .home-tab a.active {
-    color:#22ca80;
-}
-.btn-indigo{
-    background: #8d21a6;
-    border: 1px solid #8d21a6;
-}
-.btn-outline-indigo{
-    background: #fff;
-    color: #8d21a6;
-    border: 1px solid #8d21a6;
-}
-.btn-outline-indigo:hover{
-    background: #8d21a6;
-    border: 1px solid #8d21a6;
-}
-.btn-indigo:hover {
-    background: #8d21a6;
-}
-.nav.nav-tabs .pri-tab a {
-    border-top:1px solid #8d21a6;
-    color:#8d21a6;
-}
-.nav.nav-tabs .pri-tab a.active {
-    color:#8d21a6;
-}
-.pri-color {
-    color:#8d21a6;
-}
-.nav.nav-tabs .fav-tab a {
-    border-top:1px solid #1c97de;
-    color:#1c97de;
-}
-.nav.nav-tabs .trash-tab a {
-    border-top:1px solid #e23d38;
-    color:#e23d38;
-}
-.nav.nav-tabs .trash-tab a.active {
-    color:#e23d38;
-}
-.nav.nav-tabs .fav-tab a.active {
-    color:#1c97de;
-}
-.nav-tabs .nav-link {
-    border:#ddd 1px solid;
-}
-.nav.nav-tabs .important-tab a{
-    margin-top: -10px;
-    padding-top: 18px;
-}
-.nav.nav-tabs .important-tab a.active{
-    
-}
-.nav.nav-tabs .dynamic-tab a.active{
-    border-top:#999 1px solid;
-    border-left:#999 1px solid;
-    border-right:#999 1px solid;
-}
-.nav.nav-tabs .dynamic-tab a{
-    font-weight: 300;
-}
-.btn-light-info {
-    background: #1c97de;
-}
-.btn-light-info:hover {
-    background: #2884df;
-}
-.shoppico tr.priority td {
-    background-color: rgb(179,128,237,0.13);
-}
-.shoppico tr.favourite td {
-    background-color: rgb(74,205,246,0.13);
-}
-.sidebar-nav #sidebarnav .sidebar-item.selected-mod > .sidebar-link {
-    border-radius: 0px;
-    color: #fff !important;
-    background: #EB3349;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F45C43, #EB3349);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F45C43, #EB3349); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    box-shadow: 0px 7px 12px 0px rgba(95, 118, 232, 0.21);
-    opacity: 1;
-}
-.sidebar-nav #sidebarnav .sidebar-item.selected-new-filter > .sidebar-link {
-    border-radius: 0px;
-    color: #fff !important;
-    background: #56CCF2;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    box-shadow: 0px 7px 12px 0px rgba(95, 118, 232, 0.21);
-    opacity: 1;
-}
-.badge-success {
-    color: #fff;
-    background-color: #28a745;
-}
-.badge-danger {
-    color: #fff;
-    background-color: #dc3545;
-}
-.badge-info {
-    color: #fff;
-    background-color: #007bff;
-}
-.badge-secondary {
-    color: #fff;
-    background-color: #6c757d;
-}
-</style>
 </head>
-
 <body>
-
-
     <!-- ============================================================== -->
     <!-- Preloader - style you can find in spinners.css -->
     <!-- ============================================================== -->
@@ -270,10 +129,8 @@
     <script src="/backend/assets/extra-libs/c3/d3.min.js"></script>
     <script src="/backend/assets/extra-libs/c3/c3.min.js"></script>
     <script src="/backend/assets/libs/chartist/dist/chartist.min.js"></script>
-    <!-- <script src="/backend/assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script> -->
     <script src="/backend/assets/extra-libs/jvector/jquery-jvectormap-2.0.2.min.js"></script>
     <script src="/backend/assets/extra-libs/jvector/jquery-jvectormap-world-mill-en.js"></script>
-    <!-- <script src="/backend/dist/js/pages/dashboards/dashboard1.min.js"></script> -->
     <script>
         $(document).ready(function() {
             $('#add-filter-button').on('click', function(e) {
@@ -373,6 +230,35 @@
                     data: { filter_detail_id: filterDetailId },
                     dataType: 'html',
                     success: function(response) {
+                        if(response == 200){
+                            closestTr.addClass("bg-danger");
+                            closestTr.hide(1000, function(){
+                                this.remove(); 
+                            });
+                        }else{
+                            console.log('Wystąpił błąd AJAX');
+                        }
+                    },
+                    error: function(xhr, status, error) {
+                        console.log('Wystąpił błąd AJAX: ' + error);
+                    }
+                });
+            });
+            $(document).on('click','#manage-filter-modal .add-to-trash-filter',function(e){
+                e.preventDefault();
+                var filterId = $(this).attr('data-id');
+                console.log(filterId);
+                var closestTr = $(this).closest('tr');
+                $.ajax({
+                    url: '<?= $this->Url->build(['plugin' => false, 'controller' => 'Filters', 'action' => 'ajaxAddToTrash']);?>',
+                    type: 'POST',
+                    headers: {
+                        'X-CSRF-Token': "<?= $this->request->getAttribute('csrfToken'); ?>" 
+                    },
+                    data: { filter_id: filterId },
+                    dataType: 'html',
+                    success: function(response) {
+                        console.log(response);
                         if(response == 200){
                             closestTr.addClass("bg-danger");
                             closestTr.hide(1000, function(){
