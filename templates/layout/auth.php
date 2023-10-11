@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="/backend/assets/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
     <title><?= __('Shoppico - web application for aggregating advertisements found on the Internet using parser'); ?></title>
     <!-- Custom CSS -->
     <link href="/backend/dist/css/style.min.css" rel="stylesheet">
