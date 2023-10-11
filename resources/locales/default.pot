@@ -1,0 +1,972 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2023-08-16 11:30+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ./src/Controller/FilterDetailsController.php:56
+#: ./src/Controller/FilterDetailsController.php:81
+msgid "The filter detail has been saved."
+msgstr ""
+
+#: ./src/Controller/FilterDetailsController.php:60
+#: ./src/Controller/FilterDetailsController.php:85
+msgid "The filter detail could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/FilterDetailsController.php:103
+msgid "The filter detail has been deleted."
+msgstr ""
+
+#: ./src/Controller/FilterDetailsController.php:105
+msgid "The filter detail could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/FiltersController.php:145
+#: ./src/Controller/FiltersController.php:169
+msgid "The filter has been saved."
+msgstr ""
+
+#: ./src/Controller/FiltersController.php:147
+#: ./src/Controller/FiltersController.php:173
+msgid "The filter could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/FiltersController.php:191
+msgid "The filter has been deleted."
+msgstr ""
+
+#: ./src/Controller/FiltersController.php:193
+msgid "The filter could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/PaymentsController.php:56
+#: ./src/Controller/PaymentsController.php:81
+msgid "The payment has been saved."
+msgstr ""
+
+#: ./src/Controller/PaymentsController.php:60
+#: ./src/Controller/PaymentsController.php:85
+msgid "The payment could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/PaymentsController.php:103
+msgid "The payment has been deleted."
+msgstr ""
+
+#: ./src/Controller/PaymentsController.php:105
+msgid "The payment could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/SubscriptionsController.php:54
+#: ./src/Controller/SubscriptionsController.php:78
+msgid "The subscription has been saved."
+msgstr ""
+
+#: ./src/Controller/SubscriptionsController.php:58
+#: ./src/Controller/SubscriptionsController.php:82
+msgid "The subscription could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/SubscriptionsController.php:99
+msgid "The subscription has been deleted."
+msgstr ""
+
+#: ./src/Controller/SubscriptionsController.php:101
+msgid "The subscription could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/UserProfilesController.php:56
+#: ./src/Controller/UserProfilesController.php:81
+msgid "The user profile has been saved."
+msgstr ""
+
+#: ./src/Controller/UserProfilesController.php:60
+#: ./src/Controller/UserProfilesController.php:85
+msgid "The user profile could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/UserProfilesController.php:103
+msgid "The user profile has been deleted."
+msgstr ""
+
+#: ./src/Controller/UserProfilesController.php:105
+msgid "The user profile could not be deleted. Please, try again."
+msgstr ""
+
+#: ./templates/FilterDetails/add.php:11
+#: ./templates/FilterDetails/admin_index.php:27
+#: ./templates/FilterDetails/edit.php:11
+#: ./templates/FilterDetails/view.php:10
+#: ./templates/Filters/add.php:11
+#: ./templates/Filters/admin_index.php:26
+#: ./templates/Filters/edit.php:11
+#: ./templates/Filters/view.php:10
+#: ./templates/Filters/view.php:98
+#: ./templates/Payments/add.php:11
+#: ./templates/Payments/edit.php:11
+#: ./templates/Payments/index.php:39
+#: ./templates/Payments/view.php:10
+#: ./templates/Subscriptions/add.php:10
+#: ./templates/Subscriptions/edit.php:10
+#: ./templates/Subscriptions/index.php:33
+#: ./templates/Subscriptions/view.php:10
+#: ./templates/UserProfiles/add.php:11
+#: ./templates/UserProfiles/edit.php:11
+#: ./templates/UserProfiles/index.php:26
+#: ./templates/UserProfiles/view.php:10
+#: ./templates/element/backend/filters/manage.php:16
+msgid "Actions"
+msgstr ""
+
+#: ./templates/FilterDetails/add.php:12
+#: ./templates/FilterDetails/edit.php:17
+#: ./templates/FilterDetails/view.php:13
+msgid "List Filter Details"
+msgstr ""
+
+#: ./templates/FilterDetails/add.php:19
+msgid "Add Filter Detail"
+msgstr ""
+
+#: ./templates/FilterDetails/add.php:36
+#: ./templates/FilterDetails/edit.php:41
+#: ./templates/Filters/add.php:33
+#: ./templates/Filters/edit.php:38
+#: ./templates/Payments/add.php:46
+#: ./templates/Payments/edit.php:51
+#: ./templates/Subscriptions/add.php:34
+#: ./templates/Subscriptions/edit.php:39
+#: ./templates/UserProfiles/add.php:32
+#: ./templates/UserProfiles/edit.php:37
+msgid "Submit"
+msgstr ""
+
+#: ./templates/FilterDetails/admin_index.php:8
+#: ./templates/FilterDetails/view.php:14
+msgid "New Filter Detail"
+msgstr ""
+
+#: ./templates/FilterDetails/admin_index.php:9
+msgid "Filter Details"
+msgstr ""
+
+#: ./templates/FilterDetails/admin_index.php:47
+#: ./templates/Filters/admin_index.php:45
+#: ./templates/Filters/view.php:119
+#: ./templates/Payments/index.php:71
+#: ./templates/UserProfiles/index.php:45
+msgid "View"
+msgstr ""
+
+#: ./templates/FilterDetails/admin_index.php:48
+#: ./templates/Filters/admin_index.php:46
+#: ./templates/Filters/view.php:120
+#: ./templates/Payments/index.php:72
+#: ./templates/UserProfiles/index.php:46
+msgid "Edit"
+msgstr ""
+
+#: ./templates/FilterDetails/admin_index.php:49
+#: ./templates/FilterDetails/edit.php:13
+#: ./templates/Filters/admin_index.php:47
+#: ./templates/Filters/edit.php:13
+#: ./templates/Filters/view.php:121
+#: ./templates/Payments/edit.php:13
+#: ./templates/Payments/index.php:73
+#: ./templates/Subscriptions/edit.php:12
+#: ./templates/UserProfiles/edit.php:13
+#: ./templates/UserProfiles/index.php:47
+msgid "Delete"
+msgstr ""
+
+#: ./templates/FilterDetails/admin_index.php:49
+#: ./templates/FilterDetails/edit.php:15
+#: ./templates/FilterDetails/view.php:12
+#: ./templates/Filters/admin_index.php:47
+#: ./templates/Filters/edit.php:15
+#: ./templates/Filters/view.php:12
+#: ./templates/Filters/view.php:121
+#: ./templates/Payments/edit.php:15
+#: ./templates/Payments/index.php:73
+#: ./templates/Payments/view.php:12
+#: ./templates/Subscriptions/edit.php:14
+#: ./templates/Subscriptions/index.php:53
+#: ./templates/Subscriptions/view.php:12
+#: ./templates/UserProfiles/edit.php:15
+#: ./templates/UserProfiles/index.php:47
+#: ./templates/UserProfiles/view.php:12
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: ./templates/FilterDetails/admin_index.php:58
+#: ./templates/Filters/admin_index.php:56
+#: ./templates/Payments/index.php:82
+#: ./templates/UserProfiles/index.php:56
+#: ./templates/element/backend/pagination.php:16
+msgid "first"
+msgstr ""
+
+#: ./templates/FilterDetails/admin_index.php:59
+#: ./templates/Filters/admin_index.php:57
+#: ./templates/Payments/index.php:83
+#: ./templates/UserProfiles/index.php:57
+#: ./templates/element/backend/pagination.php:17
+msgid "previous"
+msgstr ""
+
+#: ./templates/FilterDetails/admin_index.php:61
+#: ./templates/Filters/admin_index.php:59
+#: ./templates/Payments/index.php:85
+#: ./templates/UserProfiles/index.php:59
+#: ./templates/element/backend/pagination.php:19
+msgid "next"
+msgstr ""
+
+#: ./templates/FilterDetails/admin_index.php:62
+#: ./templates/Filters/admin_index.php:60
+#: ./templates/Payments/index.php:86
+#: ./templates/UserProfiles/index.php:60
+#: ./templates/element/backend/pagination.php:20
+msgid "last"
+msgstr ""
+
+#: ./templates/FilterDetails/admin_index.php:64
+#: ./templates/Filters/admin_index.php:62
+#: ./templates/Payments/index.php:88
+#: ./templates/UserProfiles/index.php:62
+#: ./templates/element/backend/pagination.php:23
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr ""
+
+#: ./templates/FilterDetails/edit.php:24
+#: ./templates/FilterDetails/view.php:11
+msgid "Edit Filter Detail"
+msgstr ""
+
+#: ./templates/FilterDetails/view.php:12
+msgid "Delete Filter Detail"
+msgstr ""
+
+#: ./templates/FilterDetails/view.php:22
+msgid "Filter"
+msgstr ""
+
+#: ./templates/FilterDetails/view.php:26
+#: ./templates/Filters/view.php:84
+msgid "Ad Id Out"
+msgstr ""
+
+#: ./templates/FilterDetails/view.php:30
+#: ./templates/Filters/view.php:86
+#: ./templates/element/backend/filters/table.php:10
+msgid "Ad Title"
+msgstr ""
+
+#: ./templates/FilterDetails/view.php:34
+#: ./templates/Filters/view.php:89
+msgid "Ad City"
+msgstr ""
+
+#: ./templates/FilterDetails/view.php:38
+#: ./templates/Filters/view.php:91
+msgid "Ad Featured"
+msgstr ""
+
+#: ./templates/FilterDetails/view.php:42
+#: ./templates/Filters/view.php:30
+#: ./templates/Filters/view.php:82
+#: ./templates/Payments/view.php:22
+#: ./templates/Subscriptions/view.php:22
+#: ./templates/UserProfiles/view.php:22
+msgid "Id"
+msgstr ""
+
+#: ./templates/FilterDetails/view.php:46
+#: ./templates/Filters/view.php:88
+#: ./templates/element/backend/filters/table.php:12
+msgid "Ad Price"
+msgstr "Cena"
+
+#: ./templates/FilterDetails/view.php:50
+#: ./templates/Filters/view.php:92
+msgid "Favourite"
+msgstr "Ulubione"
+
+#: ./templates/FilterDetails/view.php:54
+#: ./templates/Filters/view.php:38
+#: ./templates/Filters/view.php:93
+#: ./templates/Subscriptions/view.php:66
+msgid "Removed"
+msgstr "Usunięte"
+
+#: ./templates/FilterDetails/view.php:58
+#: ./templates/Filters/view.php:94
+msgid "View Status"
+msgstr ""
+
+#: ./templates/FilterDetails/view.php:62
+#: ./templates/Filters/view.php:95
+msgid "Notification Status"
+msgstr ""
+
+#: ./templates/FilterDetails/view.php:66
+#: ./templates/Filters/view.php:62
+#: ./templates/Filters/view.php:96
+#: ./templates/Payments/view.php:114
+#: ./templates/Subscriptions/view.php:54
+#: ./templates/UserProfiles/view.php:62
+msgid "Created"
+msgstr ""
+
+#: ./templates/FilterDetails/view.php:70
+#: ./templates/Filters/view.php:66
+#: ./templates/Filters/view.php:97
+#: ./templates/Payments/view.php:118
+#: ./templates/Subscriptions/view.php:58
+#: ./templates/UserProfiles/view.php:66
+msgid "Modified"
+msgstr ""
+
+#: ./templates/FilterDetails/view.php:75
+#: ./templates/Filters/view.php:85
+msgid "Ad Img"
+msgstr ""
+
+#: ./templates/FilterDetails/view.php:81
+#: ./templates/Filters/view.php:87
+msgid "Ad Link"
+msgstr ""
+
+#: ./templates/FilterDetails/view.php:87
+#: ./templates/Filters/view.php:90
+msgid "Ad Pro"
+msgstr ""
+
+#: ./templates/Filters/add.php:12
+#: ./templates/Filters/edit.php:17
+#: ./templates/Filters/view.php:13
+msgid "List Filters"
+msgstr ""
+
+#: ./templates/Filters/add.php:19
+msgid "Add Filter"
+msgstr ""
+
+#: ./templates/Filters/admin_index.php:8
+#: ./templates/Filters/view.php:14
+msgid "New Filter"
+msgstr ""
+
+#: ./templates/Filters/admin_index.php:9
+msgid "Filters"
+msgstr ""
+
+#: ./templates/Filters/edit.php:24
+#: ./templates/Filters/view.php:11
+msgid "Edit Filter"
+msgstr ""
+
+#: ./templates/Filters/index.php:7
+#: ./templates/Pages/home.php:250
+msgid "Home"
+msgstr ""
+
+#: ./templates/Filters/index.php:12
+#: ./templates/Filters/view.php:46
+msgid "Priority"
+msgstr ""
+
+#: ./templates/Filters/index.php:17
+msgid "Favorite"
+msgstr ""
+
+#: ./templates/Filters/index.php:28
+msgid "My Filter Tabs"
+msgstr ""
+
+#: ./templates/Filters/view.php:12
+msgid "Delete Filter"
+msgstr ""
+
+#: ./templates/Filters/view.php:22
+#: ./templates/Payments/view.php:26
+#: ./templates/UserProfiles/view.php:26
+msgid "User"
+msgstr ""
+
+#: ./templates/Filters/view.php:26
+msgid "Title"
+msgstr ""
+
+#: ./templates/Filters/view.php:34
+msgid "Notification"
+msgstr ""
+
+#: ./templates/Filters/view.php:42
+#: ./templates/Subscriptions/index.php:31
+msgid "Status"
+msgstr ""
+
+#: ./templates/Filters/view.php:50
+msgid "Private Tab"
+msgstr ""
+
+#: ./templates/Filters/view.php:54
+msgid "Interval"
+msgstr ""
+
+#: ./templates/Filters/view.php:58
+msgid "Last Update"
+msgstr ""
+
+#: ./templates/Filters/view.php:71
+msgid "Link"
+msgstr ""
+
+#: ./templates/Filters/view.php:77
+msgid "Related Filter Details"
+msgstr ""
+
+#: ./templates/Filters/view.php:83
+msgid "Filter Id"
+msgstr ""
+
+#: ./templates/Pages/home.php:254
+msgid "O platformie"
+msgstr ""
+
+#: ./templates/Pages/home.php:257
+#: ./templates/Pages/home.php:432
+msgid "Cennik"
+msgstr ""
+
+#: ./templates/Pages/home.php:260
+#: ./templates/Pages/home.php:475
+msgid "Kontakt"
+msgstr ""
+
+#: ./templates/Pages/home.php:268
+msgid "Go to Panel"
+msgstr ""
+
+#: ./templates/Pages/home.php:271
+#: ./templates/element/backend/navbar/right_side_toggle_and_nav_items.php:42
+#: ./templates/element/backend/sidebar/nav.php:31
+msgid "Logout"
+msgstr ""
+
+#: ./templates/Pages/home.php:275
+#: ./templates/plugin/CakeDC/Users/Users/login.php:11
+msgid "Sign In"
+msgstr ""
+
+#: ./templates/Pages/home.php:278
+msgid "Sign Up"
+msgstr ""
+
+#: ./templates/Pages/home.php:300
+msgid "Shoppico to przełomowe rozwiązanie, które dzięki zastosowaniu sztucznej inteligencji, umożliwia ci monitorowanie najświeższych ogłoszeń oraz aukcji przez całą dobę. "
+msgstr ""
+
+#: ./templates/Pages/home.php:305
+#: ./templates/Pages/home.php:456
+msgid "Bezpłatny okres próbny przez 3 dni"
+msgstr ""
+
+#: ./templates/Pages/home.php:477
+msgid "Masz pytania?<br />Porozmawiajmy o naszej platformie!"
+msgstr ""
+
+#: ./templates/Pages/home.php:487
+msgid "W czym możemy pomóc?"
+msgstr ""
+
+#: ./templates/Pages/home.php:500
+msgid "Wyślij nam wiadomość"
+msgstr ""
+
+#: ./templates/Pages/home.php:503
+msgid "Imię i nazwisko"
+msgstr ""
+
+#: ./templates/Pages/home.php:511
+#: ./templates/plugin/CakeDC/Users/Users/login.php:18
+msgid "E-mail"
+msgstr ""
+
+#: ./templates/Pages/home.php:515
+msgid "np.: john.p@gmail.com"
+msgstr ""
+
+#: ./templates/Pages/home.php:519
+msgid "Treść wiadomości"
+msgstr ""
+
+#: ./templates/Pages/home.php:523
+msgid "Tutaj wpisz swoją wiadomosć"
+msgstr ""
+
+#: ./templates/Pages/home.php:528
+msgid "Wyślij wiadomość"
+msgstr ""
+
+#: ./templates/Pages/home.php:553
+msgid "Polityka Prywatności"
+msgstr ""
+
+#: ./templates/Pages/home.php:556
+msgid "Regulamin"
+msgstr ""
+
+#: ./templates/Payments/add.php:12
+#: ./templates/Payments/edit.php:17
+#: ./templates/Payments/view.php:13
+msgid "List Payments"
+msgstr ""
+
+#: ./templates/Payments/add.php:19
+msgid "Add Payment"
+msgstr ""
+
+#: ./templates/Payments/edit.php:24
+#: ./templates/Payments/view.php:11
+msgid "Edit Payment"
+msgstr ""
+
+#: ./templates/Payments/index.php:8
+#: ./templates/Payments/view.php:14
+msgid "New Payment"
+msgstr ""
+
+#: ./templates/Payments/index.php:9
+msgid "Payments"
+msgstr ""
+
+#: ./templates/Payments/view.php:12
+msgid "Delete Payment"
+msgstr ""
+
+#: ./templates/Payments/view.php:30
+msgid "Id Operation"
+msgstr ""
+
+#: ./templates/Payments/view.php:34
+msgid "Operation Number"
+msgstr ""
+
+#: ./templates/Payments/view.php:38
+msgid "Operation Type"
+msgstr ""
+
+#: ./templates/Payments/view.php:42
+msgid "Operation Status"
+msgstr ""
+
+#: ./templates/Payments/view.php:46
+msgid "Operation Currency"
+msgstr ""
+
+#: ./templates/Payments/view.php:50
+msgid "Operation Original Currency"
+msgstr ""
+
+#: ./templates/Payments/view.php:54
+msgid "Control"
+msgstr ""
+
+#: ./templates/Payments/view.php:58
+#: ./templates/Subscriptions/view.php:83
+msgid "Description"
+msgstr ""
+
+#: ./templates/Payments/view.php:62
+#: ./templates/plugin/CakeDC/Users/Users/register.php:21
+msgid "Email"
+msgstr ""
+
+#: ./templates/Payments/view.php:66
+msgid "P Email"
+msgstr ""
+
+#: ./templates/Payments/view.php:70
+msgid "Signature"
+msgstr ""
+
+#: ./templates/Payments/view.php:74
+msgid "Filter Limit"
+msgstr ""
+
+#: ./templates/Payments/view.php:78
+msgid "Month Limit"
+msgstr ""
+
+#: ./templates/Payments/view.php:82
+msgid "Operation Amount"
+msgstr ""
+
+#: ./templates/Payments/view.php:86
+msgid "Operation Original Amount"
+msgstr ""
+
+#: ./templates/Payments/view.php:90
+msgid "OrderId"
+msgstr ""
+
+#: ./templates/Payments/view.php:94
+msgid "Is Mail Campain"
+msgstr ""
+
+#: ./templates/Payments/view.php:98
+msgid "Channel"
+msgstr ""
+
+#: ./templates/Payments/view.php:102
+msgid "Invoice Id"
+msgstr ""
+
+#: ./templates/Payments/view.php:106
+msgid "Is Verify"
+msgstr ""
+
+#: ./templates/Payments/view.php:110
+msgid "Operation Datetime"
+msgstr ""
+
+#: ./templates/Payments/view.php:123
+msgid "P Info"
+msgstr ""
+
+#: ./templates/Subscriptions/add.php:11
+#: ./templates/Subscriptions/edit.php:16
+#: ./templates/Subscriptions/view.php:13
+msgid "List Subscriptions"
+msgstr ""
+
+#: ./templates/Subscriptions/add.php:18
+msgid "Add Subscription"
+msgstr ""
+
+#: ./templates/Subscriptions/edit.php:23
+#: ./templates/Subscriptions/view.php:11
+msgid "Edit Subscription"
+msgstr ""
+
+#: ./templates/Subscriptions/index.php:7
+msgid "Subscriptions"
+msgstr ""
+
+#: ./templates/Subscriptions/index.php:15
+#: ./templates/Subscriptions/view.php:14
+msgid "New Subscription"
+msgstr ""
+
+#: ./templates/Subscriptions/index.php:20
+msgid "The <code>Subscriptions</code> table enables effective storage, management and analysis of subscription data, allowing access to relevant information about users' subscriptions."
+msgstr ""
+
+#: ./templates/Subscriptions/index.php:26
+#: ./templates/element/backend/filters/manage.php:13
+msgid "#"
+msgstr ""
+
+#: ./templates/Subscriptions/index.php:27
+#: ./templates/Subscriptions/view.php:26
+msgid "Name"
+msgstr ""
+
+#: ./templates/Subscriptions/index.php:28
+msgid "Costs"
+msgstr ""
+
+#: ./templates/Subscriptions/index.php:29
+#: ./templates/Subscriptions/view.php:42
+msgid "Months"
+msgstr ""
+
+#: ./templates/Subscriptions/index.php:30
+#: ./templates/Subscriptions/view.php:46
+msgid "Filters Max"
+msgstr ""
+
+#: ./templates/Subscriptions/index.php:45
+msgid "with {0}% tax:"
+msgstr ""
+
+#: ./templates/Subscriptions/index.php:49
+#: ./templates/Subscriptions/view.php:62
+msgid "Active"
+msgstr ""
+
+#: ./templates/Subscriptions/index.php:49
+msgid "Unactive"
+msgstr ""
+
+#: ./templates/Subscriptions/index.php:50
+msgid "No Discout"
+msgstr ""
+
+#: ./templates/Subscriptions/view.php:12
+msgid "Delete Subscription"
+msgstr ""
+
+#: ./templates/Subscriptions/view.php:30
+msgid "Netto"
+msgstr ""
+
+#: ./templates/Subscriptions/view.php:34
+msgid "Brutto"
+msgstr ""
+
+#: ./templates/Subscriptions/view.php:38
+msgid "Vat"
+msgstr ""
+
+#: ./templates/Subscriptions/view.php:50
+msgid "Discount"
+msgstr ""
+
+#: ./templates/Subscriptions/view.php:63
+#: ./templates/Subscriptions/view.php:67
+msgid "Yes"
+msgstr ""
+
+#: ./templates/Subscriptions/view.php:63
+#: ./templates/Subscriptions/view.php:67
+msgid "No"
+msgstr ""
+
+#: ./templates/Subscriptions/view.php:71
+msgid "Users Email"
+msgstr ""
+
+#: ./templates/Subscriptions/view.php:77
+msgid "Notes"
+msgstr ""
+
+#: ./templates/UserProfiles/add.php:12
+#: ./templates/UserProfiles/edit.php:17
+#: ./templates/UserProfiles/view.php:13
+msgid "List User Profiles"
+msgstr ""
+
+#: ./templates/UserProfiles/add.php:19
+msgid "Add User Profile"
+msgstr ""
+
+#: ./templates/UserProfiles/edit.php:24
+#: ./templates/UserProfiles/view.php:11
+msgid "Edit User Profile"
+msgstr ""
+
+#: ./templates/UserProfiles/index.php:8
+#: ./templates/UserProfiles/view.php:14
+msgid "New User Profile"
+msgstr ""
+
+#: ./templates/UserProfiles/index.php:9
+msgid "User Profiles"
+msgstr ""
+
+#: ./templates/UserProfiles/view.php:12
+msgid "Delete User Profile"
+msgstr ""
+
+#: ./templates/UserProfiles/view.php:30
+msgid "Company Name"
+msgstr ""
+
+#: ./templates/UserProfiles/view.php:34
+msgid "Nip"
+msgstr ""
+
+#: ./templates/UserProfiles/view.php:38
+msgid "Regon"
+msgstr ""
+
+#: ./templates/UserProfiles/view.php:42
+msgid "Postal Code"
+msgstr ""
+
+#: ./templates/UserProfiles/view.php:46
+msgid "City"
+msgstr ""
+
+#: ./templates/UserProfiles/view.php:50
+msgid "Street"
+msgstr ""
+
+#: ./templates/UserProfiles/view.php:54
+msgid "Phone"
+msgstr ""
+
+#: ./templates/UserProfiles/view.php:58
+msgid "Local Number"
+msgstr ""
+
+#: ./templates/element/backend/filters/add.php:7
+#: ./templates/element/backend/sidebar/nav.php:6
+msgid "Add a new filter"
+msgstr ""
+
+#: ./templates/element/backend/filters/add.php:11
+msgid "ex. https://olx.pl/motoryzacja/samochody/..."
+msgstr ""
+
+#: ./templates/element/backend/filters/add.php:11
+msgid "Url to monit"
+msgstr ""
+
+#: ./templates/element/backend/filters/add.php:14
+msgid "ex. konsole olx, diesel 90k"
+msgstr ""
+
+#: ./templates/element/backend/filters/add.php:14
+msgid "Filter name"
+msgstr ""
+
+#: ./templates/element/backend/filters/add.php:17
+msgid "Save Filter"
+msgstr ""
+
+#: ./templates/element/backend/filters/manage.php:7
+#: ./templates/element/backend/sidebar/nav.php:13
+msgid "Manage filters"
+msgstr ""
+
+#: ./templates/element/backend/filters/manage.php:14
+#: ./templates/element/backend/filters/table.php:11
+msgid "Filter Name"
+msgstr ""
+
+#: ./templates/element/backend/filters/manage.php:15
+msgid "Options"
+msgstr ""
+
+#: ./templates/element/backend/filters/table.php:8
+msgid "Finding Time"
+msgstr ""
+
+#: ./templates/element/backend/filters/table.php:9
+msgid "Ad Image"
+msgstr ""
+
+#: ./templates/element/backend/filters/table.php:13
+msgid "Ad Localisation"
+msgstr ""
+
+#: ./templates/element/backend/filters/table.php:50
+#: ./templates/layout/default.php:310
+msgid "Loading..."
+msgstr ""
+
+#: ./templates/element/backend/navbar/right_side_toggle_and_nav_items.php:7
+msgid "Add new filter with AI"
+msgstr ""
+
+#: ./templates/element/backend/navbar/right_side_toggle_and_nav_items.php:16
+msgid "Hello"
+msgstr ""
+
+#: ./templates/element/backend/navbar/right_side_toggle_and_nav_items.php:21
+msgid "Guest"
+msgstr ""
+
+#: ./templates/element/backend/navbar/right_side_toggle_and_nav_items.php:28
+msgid "My Profile"
+msgstr ""
+
+#: ./templates/element/backend/navbar/right_side_toggle_and_nav_items.php:31
+#: ./templates/element/backend/sidebar/nav.php:39
+#: ./templates/element/backend/subscriptions/payment.php:7
+#: ./templates/plugin/CakeDC/Users/Users/profile.php:23
+msgid "Extend subscription"
+msgstr ""
+
+#: ./templates/element/backend/navbar/right_side_toggle_and_nav_items.php:35
+msgid "Report a problem"
+msgstr ""
+
+#: ./templates/element/backend/navbar/right_side_toggle_and_nav_items.php:38
+msgid "My submissions"
+msgstr ""
+
+#: ./templates/element/backend/sidebar/nav.php:19
+msgid "My searches"
+msgstr ""
+
+#: ./templates/element/backend/sidebar/nav.php:25
+msgid "FAQ"
+msgstr ""
+
+#: ./templates/element/backend/subscriptions/payment.php:18
+msgid "miesiąc"
+msgstr ""
+
+#: ./templates/element/backend/subscriptions/payment.php:25
+msgid "Subscribe"
+msgstr ""
+
+#: ./templates/layout/default.php:236
+msgid "© shoppico.pl - {0}-{1}."
+msgstr ""
+
+#: ./templates/layout/default.php:236
+msgid "All rights reserved by <a href=\"{0}\">{1}</a>."
+msgstr ""
+
+#: ./templates/layout/error.php:38
+msgid "Back"
+msgstr ""
+
+#: ./templates/plugin/CakeDC/Users/Users/login.php:12
+msgid "Enter your email address and password to access admin panel."
+msgstr ""
+
+#: ./templates/plugin/CakeDC/Users/Users/login.php:23
+#: ./templates/plugin/CakeDC/Users/Users/register.php:26
+msgid "Password"
+msgstr ""
+
+#: ./templates/plugin/CakeDC/Users/Users/login.php:42
+msgid "Don't have an account? "
+msgstr ""
+
+#: ./templates/plugin/CakeDC/Users/Users/profile.php:22
+msgid "User joined:"
+msgstr ""
+
+#: ./templates/plugin/CakeDC/Users/Users/profile.php:23
+msgid "Subscription expires:"
+msgstr ""
+
+#: ./templates/plugin/CakeDC/Users/Users/profile.php:24
+msgid "Last successful login:"
+msgstr ""
+
+#: ./templates/plugin/CakeDC/Users/Users/register.php:10
+msgid "Sign Up for Free"
+msgstr ""
+
+#: ./templates/plugin/CakeDC/Users/Users/register.php:16
+msgid "Login"
+msgstr ""
+
+#: ./templates/plugin/CakeDC/Users/Users/register.php:31
+msgid "Confirm password"
+msgstr ""
+
+#: ./templates/plugin/CakeDC/Users/Users/register.php:52
+msgid "You have an account? "
+msgstr ""
+

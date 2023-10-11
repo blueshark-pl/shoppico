@@ -1,27 +1,27 @@
-# Description
-Capture (Parse) the latest ads from advertising portals with nodeJS (cheerio, pusher, express etc.), PHP (CakePHP 3.6) and MySQL. 
-Currently we are supported only polish website: allegro, olx, otomoto, sprzedajemy, travelplanet.
+# Shoppico pre-alpha
+web application for aggregating advertisements found on the Internet using any parser
 
-All you need is a link to the list of ads example: https://allegro.pl/kategoria/ogrod-meble-ogrodowe-82256?order=n.
+## Installation
 
-# Installation 
-## Linux
-TODO
-## Windows
-TODO
+1. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
+2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
 
-# DEMO
-is under construction
+You can now either use your machine's webserver to view the default home page, or start
+up the built-in webserver with:
 
-# TODO
-1. complete the wiki
-2. refactorize the code
-3. add new portal (otodom, mobile.de)
-4. add cake app to this repo
+```bash
+bin/cake server -p 8763
+```
 
-# Donations
+Then visit `http://localhost:8763` to see the welcome page.
 
-Donate via Bitcoin: 1B5BF7UQAjiZBMNptagFXDxC53M7gEtY1A
 
-# Thanks
-Your boy, Y2hyaXM.
+## Configuration
+
+Read and edit the environment specific `config/app_local.php` and setup the 
+`'Datasources'` and any other configuration relevant for your application.
+Other environment agnostic settings can be changed in `config/app.php`.
+
+## Preview
+![Login Page](docs/preview.png "Login Page")
+![Login Page](docs/preview2.png "App Dashboard")

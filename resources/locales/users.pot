@@ -1,0 +1,38 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2023-08-16 11:30+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ./templates/plugin/CakeDC/Users/Users/login.php:30
+msgid "Reset Password"
+msgstr ""
+
+#: ./templates/plugin/CakeDC/Users/Users/login.php:36
+#: ./templates/plugin/CakeDC/Users/Users/register.php:52
+msgid "Sign In"
+msgstr ""
+
+#: ./templates/plugin/CakeDC/Users/Users/login.php:42
+#: ./templates/plugin/CakeDC/Users/Users/register.php:48
+msgid "Sign Up"
+msgstr ""
+
+#: ./templates/plugin/CakeDC/Users/Users/profile.php:25
+msgid "Change Password"
+msgstr ""
+
+#: ./templates/plugin/CakeDC/Users/Users/register.php:38
+msgid " Accept TOS conditions?"
+msgstr ""
+
