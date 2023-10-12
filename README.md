@@ -23,24 +23,8 @@ Then restart all services and it should be OK.
 > **IMPORTANT**
 All built-in drivers require PDO. You should make sure you have the appropriate PDO extensions installed.
 
-## Installation 👇
-
-1. Clone this repo.
-2. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update with the terminal command `composer self-update`.
-
-## Development Server 
-
-```sh
-bin/cake server -p 8763
-```
-
-Then visit `http://localhost:8763` to see the welcome page.
-
-## Configuration
-
-Read and edit the environment specific `config/app_local.php` and setup the 
-`'Datasources'` and any other configuration relevant for your application.
-Other environment agnostic settings can be changed in `config/app.php`.
+## Installation and Usage
+See **[Documentation](_docs/README.md)**.
 
 ## Preview
 ![Login Page](docs/preview.png "Login Page")
