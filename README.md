@@ -27,7 +27,7 @@ All built-in drivers require PDO. You should make sure you have the appropriate 
 See **[Documentation](_docs/README.md)**.
 
 ## Preview
-![Login Page](docs/preview.png "Login Page")
-![Login Page](docs/preview2.png "App Dashboard")
-![Login Page](docs/preview3.png "App Dashboard | Manage filters")
-![Login Page](docs/preview4.png "App Dashboard | Add a new filter")
+![Login Page](_docs/Documentation/assets/preview.png "Login Page")
+![Login Page](_docs/Documentation/assets/preview2.png "App Dashboard")
+![Login Page](_docs/Documentation/assets/preview3.png "App Dashboard | Manage filters")
+![Login Page](_docs/Documentation/assets/preview4.png "App Dashboard | Add a new filter")
