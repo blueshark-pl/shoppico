@@ -22,9 +22,9 @@
                             <td><?= $k+1; ?></td>
                             <td><?= h($filter->title) ?></td>
                             <td>
-                                <button type="button" class="btn <?= ($filter->status == 1)? "btn-success": "btn-outline-success"?>"><i class="fa fa-power-off"></i></button>
-                                <button type="button" class="btn btn-info <?= ($filter->priority == 1)? "btn-indigo": "btn-outline-indigo"?>"><i class="fa fa-certificate"></i></button>
-                                <button type="button" class="btn <?= ($filter->notification == 1)? "btn-danger": "btn-outline-danger"?>" data-id="<?= $filter->id; ?>"><i class="fa fa-envelope"></i></button>
+                                <button type="button" class="btn <?= ($filter->status == 1)? "btn-success": "btn-outline-success"?> change-status" data-id="<?= $filter->id; ?>"><i class="fa fa-power-off"></i></button>
+                                <button type="button" class="btn btn-info <?= ($filter->priority == 1)? "btn-indigo": "btn-outline-indigo"?> add-to-pri" data-id="<?= $filter->id; ?>"><i class="fa fa-certificate"></i></button>
+                                <button type="button" class="btn <?= ($filter->notification == 1)? "btn-danger": "btn-outline-danger"?> add-to-notification" data-id="<?= $filter->id; ?>"><i class="fa fa-envelope"></i></button>
                             </td>
                             <td class="actions">
                                 <div class="btn-group" role="group">

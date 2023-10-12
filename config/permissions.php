@@ -137,7 +137,7 @@ return [
         [
             'role' => 'user',
             'controller' => 'Filters',
-            'action' => ['index', 'ajaxFilterDetailListByFilterId', 'ajaxAddToFavourite', 'ajaxAddToTrash', 'add'],
+            'action' => ['index', 'ajaxFilterDetailListByFilterId', 'ajaxAddToFavourite', 'ajaxAddToTrash', 'add', 'ajaxAddToPriority', 'ajaxAddToNotification', 'ajaxChangeStatus'],
         ],
         [
             'role' => 'user',

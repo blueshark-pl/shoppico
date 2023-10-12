@@ -273,6 +273,103 @@
                     }
                 });
             });
+            $(document).on('click','#manage-filter-modal .add-to-pri',function(e){
+                e.preventDefault();
+                var filterId = $(this).attr('data-id');
+                var closestTr = $(this).closest('tr');
+                var priBtn = $(this);
+                $.ajax({
+                    url: '<?= $this->Url->build(['plugin' => false, 'controller' => 'Filters', 'action' => 'ajaxAddToPriority']);?>',
+                    type: 'POST',
+                    headers: {
+                        'X-CSRF-Token': "<?= $this->request->getAttribute('csrfToken'); ?>" 
+                    },
+                    data: { filter_id: filterId },
+                    dataType: 'html',
+                    success: function(response) {
+                        console.log(response);
+                        if(response >= 200){
+                            if(response == 201){
+                                
+                                priBtn.addClass("btn-outline-indigo");
+                                priBtn.removeClass("btn-indigo");
+                            }else{
+                                priBtn.addClass("btn-indigo");
+                                priBtn.removeClass("btn-outline-indigo");
+                            }
+                        }else{
+                            console.log('Wystąpił błąd AJAX');
+                        }
+                    },
+                    error: function(xhr, status, error) {
+                        console.log('Wystąpił błąd AJAX: ' + error);
+                    }
+                });
+            });
+            $(document).on('click','#manage-filter-modal .add-to-notification',function(e){
+                e.preventDefault();
+                var filterId = $(this).attr('data-id');
+                var closestTr = $(this).closest('tr');
+                var notificationBtn = $(this);
+                $.ajax({
+                    url: '<?= $this->Url->build(['plugin' => false, 'controller' => 'Filters', 'action' => 'ajaxAddToNotification']);?>',
+                    type: 'POST',
+                    headers: {
+                        'X-CSRF-Token': "<?= $this->request->getAttribute('csrfToken'); ?>" 
+                    },
+                    data: { filter_id: filterId },
+                    dataType: 'html',
+                    success: function(response) {
+                        console.log(response);
+                        if(response >= 200){
+                            if(response == 201){
+                                notificationBtn.addClass("btn-outline-danger");
+                                notificationBtn.removeClass("btn-danger");
+                            }else{
+                                notificationBtn.addClass("btn-danger");
+                                notificationBtn.removeClass("btn-outline-danger");
+                            }
+                        }else{
+                            console.log('Wystąpił błąd AJAX');
+                        }
+                    },
+                    error: function(xhr, status, error) {
+                        console.log('Wystąpił błąd AJAX: ' + error);
+                    }
+                });
+            });
+            $(document).on('click','#manage-filter-modal .change-status',function(e){
+                e.preventDefault();
+                var filterId = $(this).attr('data-id');
+                var closestTr = $(this).closest('tr');
+                var statusBtn = $(this);
+                $.ajax({
+                    url: '<?= $this->Url->build(['plugin' => false, 'controller' => 'Filters', 'action' => 'ajaxChangeStatus']);?>',
+                    type: 'POST',
+                    headers: {
+                        'X-CSRF-Token': "<?= $this->request->getAttribute('csrfToken'); ?>" 
+                    },
+                    data: { filter_id: filterId },
+                    dataType: 'html',
+                    success: function(response) {
+                        console.log(response);
+                        if(response >= 200){
+                            if(response == 201){
+                                statusBtn.addClass("btn-outline-success");
+                                statusBtn.removeClass("btn-success");
+                            }else{
+                                statusBtn.addClass("btn-success");
+                                statusBtn.removeClass("btn-outline-success");
+                            }
+                        }else{
+                            console.log('Wystąpił błąd AJAX');
+                        }
+                    },
+                    error: function(xhr, status, error) {
+                        console.log('Wystąpił błąd AJAX: ' + error);
+                    }
+                });
+            });
         });
     </script>
 </body>

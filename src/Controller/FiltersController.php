@@ -291,4 +291,58 @@ class FiltersController extends AppController
             echo "100";
         }
     }
+    public function ajaxAddToPriority(){
+        $this->autoRender = false;
+        if($this->request->is('ajax')){
+            $filter_id   = $this->request->getData('filter_id');
+            $filter = $this->Filters->get($filter_id, [
+                'contain' => [],
+            ]);
+            $data['priority'] = ($filter->priority == 1)? 0:1;
+            $filter = $this->Filters->patchEntity($filter, $data);
+            if ($this->Filters->save($filter)) {
+                echo "20".$data['priority'];
+            }else{
+                echo "100";
+            }
+        } else {
+            echo "100";
+        }
+    }  
+    public function ajaxAddToNotification(){
+        $this->autoRender = false;
+        if($this->request->is('ajax')){
+            $filter_id   = $this->request->getData('filter_id');
+            $filter = $this->Filters->get($filter_id, [
+                'contain' => [],
+            ]);
+            $data['notification'] = ($filter->notification == 1)? 0:1;
+            $filter = $this->Filters->patchEntity($filter, $data);
+            if ($this->Filters->save($filter)) {
+                echo "20".$data['notification'];
+            }else{
+                echo "100";
+            }
+        } else {
+            echo "100";
+        }
+    }  
+    public function ajaxChangeStatus(){
+        $this->autoRender = false;
+        if($this->request->is('ajax')){
+            $filter_id   = $this->request->getData('filter_id');
+            $filter = $this->Filters->get($filter_id, [
+                'contain' => [],
+            ]);
+            $data['status'] = ($filter->status == 1)? 0:1;
+            $filter = $this->Filters->patchEntity($filter, $data);
+            if ($this->Filters->save($filter)) {
+                echo "20".$data['status'];
+            }else{
+                echo "100";
+            }
+        } else {
+            echo "100";
+        }
+    }  
 }
